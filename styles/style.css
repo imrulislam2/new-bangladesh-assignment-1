@@ -1,3 +1,5 @@
+
+
 .fira-sans-normal {
     font-family: "Fira Sans";
     font-style: normal;
@@ -18,10 +20,6 @@
     font-weight: 600;
     cursor: pointer;
 }
-
-/* header style */
-
-
 
 /* nav style */
 
@@ -76,6 +74,7 @@ main {
 .new-bd-title {
     font-size: 56px;
     font-weight: 700;
+    margin-top: 10px;
 }
 
 /* vision styles */
@@ -84,27 +83,82 @@ main {
     margin-bottom: 80px;
 }
 
+.vision-title{
+    font-size: 40px;
+}
+
+.vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
 .vision-container {
     display: flex;
     justify-content: space-between;
+    /* align-items: center;
+    text-align: center; */
     gap: 24px;
-
-
 }
+
+.goal-title{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.goal-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
 
 .vision-item-1 {
     background-color: rgba(84, 144, 245, 0.2);
     padding: 32px;
+    border-radius: 16px;
 }
 
 .vision-item-2 {
     background-color: rgba(198, 228, 214, 1);
     padding: 32px;
+    border-radius: 16px;
 }
 
 .vision-item-3 {
     background-color: rgba(247, 235, 207, 1);
     padding: 32px;
+    border-radius: 16px;
+}
+
+.vision-btn-1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 144, 245);
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.vision-btn-2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 161, 92);
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.vision-btn-3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 194, 57);
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: 600px;
 }
 
 /* recent news style */
@@ -152,6 +206,18 @@ main {
 
 .donation {
     margin-bottom: 80px;
+}
+
+.donate-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.donate-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
 }
 
 .donation-container {
