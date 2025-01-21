@@ -16,6 +16,7 @@
     padding: 17px 34px 17px 34px;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* header style */
@@ -145,4 +146,59 @@ main {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     margin: 12px 0px;
+}
+
+/* donation style */
+
+.donation {
+    margin-bottom: 80px;
+}
+
+.donation-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+
+
+}
+
+.amount-1 {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    width: 240px;
+
+}
+
+.another-bg {
+    background-color: rgb(198, 228, 214);
+}
+
+.amount-1:hover {
+    background-color: bisque;
+}
+
+.other-amount {
+    margin-top: 32px;
+    padding: 20px 140px 20px 140px;
+    font-size: 28px;
+    font-weight: 400px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    display: block;
+    width: 980px;
+    text-align: center;
+    
+}
+
+.donate-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 32px;
 }
